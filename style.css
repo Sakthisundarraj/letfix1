@@ -511,10 +511,10 @@
     padding-top: 20px;
 }
 .courseContainer .card{
-    width: 250px !important;
+    width: 300px !important;
 }
 .courseContainer .card img{
-    width: 250px;
+    width: 300px;
     aspect-ratio: 16/9;
 }
 .slick-dots {
