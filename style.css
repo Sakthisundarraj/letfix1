@@ -1,0 +1,569 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.navbar{
+    /* background-image: url(./assets/images/index/bg-transparent1.png); */
+    display: flex;
+    justify-content: center !important;
+}
+.navTitle{
+    display:flex;
+    justify-content: center !important;
+    justify-items: center !important;
+    height:5vh !important;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.navImage img{
+    width:40px;
+}
+.navTitle{
+    display: flex;
+    align-items: center;
+}
+.navTitle span{
+    font-size: 25px;
+    color: #03989E;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif !important;
+}
+.navTitle p{
+    color: #545454;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: "DM Sans", sans-serif !important;
+}
+.navLinks .nav-item a{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+
+/* herocontainer */
+.carousel-item img{
+    height: 500px;
+}
+.carouselText p,h2{
+    color:#ffff;
+    font-family: "DM Sans", sans-serif !important;
+}
+.carouselText p{
+    font-size: 20px;
+}
+.carouselText h2{
+    color: #00305B;
+    font-weight: bold;
+}
+.carouselText{
+    background-color: #03989E;
+}
+/* wedoContainer */
+.wedoBody .wedoTitle{
+    background-color: #EAF4F6;
+    padding-left: 120px;
+    font-family: "Raleway", sans-serif;
+}
+.wedoBody .wedoTitle h4{
+    font-size: 42px;
+    color: #00305B;
+    font-weight: bold;
+}
+.wedoContent i{
+    color: #41B7C4;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.wedoContent h3{
+    color: #01315C;
+    padding-bottom: 20px;
+    font-size:25px;
+    font-family: "Raleway", sans-serif;
+}
+.wedoContent p{
+    color:#3F709D;
+    font-family: "Raleway", sans-serif;
+}
+.innerContent{
+    /* background-color: brown; */
+    padding: 0px 5px;
+    border: 1px solid #03989E;
+}
+.innerContent:hover{
+    background-color: #03989E;
+}
+.innerContent:hover{
+    h3,p,i{
+        color: white;
+    }
+    
+} 
+/* queContainer */
+.queTitle{
+    background-color: #EAF4F6;
+    padding-left: 120px;
+    font-family: "Raleway", sans-serif;
+}
+.queTitle h4{
+    font-size: 42px;
+    color: #00305B;
+    font-weight: bold;
+}
+
+/* accordion */
+
+.queBody h5{
+    color: #01315C;
+    font-family: "Raleway", sans-serif;
+}
+.queBody{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* ourfeatures */
+.ourBody .ourTitle{
+    background-color: #EAF4F6;
+    padding-left: 120px;
+    font-family: "Raleway", sans-serif;
+}
+.ourBody .ourTitle h4{
+    font-size: 42px;
+    color: #00305B;
+    font-weight: bold;
+}
+.ourContent i{
+    color: #41B7C4;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.ourContent h3{
+    color: #01315C;
+    padding-bottom: 20px;
+    font-size:25px;
+    font-family: "Raleway", sans-serif;
+}
+.ourContent p{
+    color:#3F709D;
+    font-family: "Raleway", sans-serif;
+}
+.innerContent{
+    /* background-color: brown; */
+    padding: 0px 5px;
+    border: 1px solid #03989E;
+}
+.innerContent:hover{
+    background-color: #03989E;
+}
+.innerContent:hover{
+    h3,p,i{
+        color: white;
+    }
+    
+} 
+.slick-slide{
+    margin: 0px 10px;
+}
+.slick-slide img{
+    width: 100%;
+}
+.courseContainer{
+ background-color: #EAF4F6;
+}
+.courseContainer H2{
+    color: #01315C;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size:42px;
+    font-family: "Raleway", sans-serif;
+}
+.dronep{
+    padding-top: 20px;
+}
+.dr{
+    padding-top:40px;
+}
+.mo{
+    padding-top: 20px;
+}
+.courseContainer .slider h5{
+    font-family: "Raleway", sans-serif;
+}
+.courseContainer .slider h5 p{
+    font-family: "Raleway", sans-serif;
+}
+/* service */
+
+.serviceContainer h2{
+    font-family: "Raleway", sans-serif;
+    color: #01315C;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size:42px;
+}
+.serviceBody{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:#2B2C2E;
+}
+.serviceContainer .serviceBody .card{
+    padding: 15px;
+    background-color: #5A5859;
+    border-radius: 10px;
+}
+.serviceContainer .serviceBody h5{
+    color: #ffff;
+}
+.serviceContainer .serviceBody p{
+    color: #ffff;
+    font-family: "Raleway", sans-serif;
+}
+.serviceContainer .serviceBody h5{
+    font-weight: bold;
+    font-size: 18px;
+}
+.serviceContainer .serviceBody p{
+    font-size: 13px;
+}
+.serviceContainer .serviceBody  img{
+    border-radius: 10px;
+}
+.serviceBody .serviceContent{
+    height:480px;
+}
+/* .gu{
+    padding-top: 30px;
+}
+.robo{
+    padding-top: 25px;
+}
+.ele{
+    padding-top: 55px;
+} */
+ .serviceContent .card-text{
+    line-height:20px;
+ }
+
+ /* student */
+
+ .studentContainer h2{
+    font-family: "Raleway", sans-serif;
+    color: #01315C;
+   padding-top: 20px;
+    font-weight: bold;
+    font-size:42px;
+ }
+ .studentContainer {
+    text-align: center;
+    background-color:#EAF4F6;
+
+}
+.description {
+    color: #969799;
+    font-size: 17px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.studentBody {
+    display: flex;
+    gap:10px;
+    /* flex-wrap: wrap; */
+    /* max-width:1200px; */
+    margin: 0 auto;
+    padding: 50px;
+}
+.studentContent h2{
+    color:#ffff;
+    font-family: "Raleway", sans-serif;
+}
+.studentCard {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+.card-button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background-color:#00305B; */
+    background-color:#3F709D;
+    border-radius: 24px;
+    text-align:center;
+    transition: filter 200ms ease;
+    cursor: pointer;
+    padding:10px;
+}
+
+.card-button:hover {
+    filter: brightness(1.25);
+}
+
+.studentImage {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+    border-radius:50px;
+}
+
+.studentContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    color: white;
+}
+
+.studentContent h2 {
+    font-size: 21px;
+}
+
+.icon-container {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    /* backdrop-blur: 10px; */
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.overlay-content {
+    background:#ffff;
+    border-radius: 24px 24px 0 0;
+    width:300px;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.overlay-content img {
+    width:250px;
+    border-radius: 24px;
+}
+
+.overlay-content h2 {
+    font-size:20px;
+    margin-top: 20px;
+    color:#00305B;
+    font-family: "Raleway", sans-serif;
+}
+
+.overlay-content p {
+    font-size: 15px;
+    color:#00305B;
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+}
+/* aboutus */
+
+.aboutusBody .aboutusTitle h2{
+    color:#00305B;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+}
+.aboutusBody .aboutusContent p{
+    font-family: "Raleway", sans-serif;
+    line-height: 30px;
+}
+/* footer */
+.footerContainer{
+    background-color:#EAF4F6;
+    font-family: "Raleway", sans-serif;
+
+}
+.footerBody ul{
+    padding-left: 0rem;
+}
+.socialIcon{
+    background-color: #03989E;
+}
+.footerSection span{
+    color: #ffff;
+    font-family: "Raleway", sans-serif;
+} 
+.footerContainer li{
+    list-style: none;
+    padding: 5px 0px;
+    display:flex;
+    justify-content:start;
+}
+.footerContainer a{
+    text-decoration: none;
+    color: #003065;
+    font-weight: 500;
+}
+.newsContent p{
+    color: #003065;
+}
+.newsContent button {
+    padding: 0px 10px;
+    background-color: #01315C;
+}
+.newsContent button a{
+    padding: 0px 10px;
+    background-color: #01315C;
+    color: #ffff;
+}
+.contactContent i{
+    color: #003065;
+    padding: 0px 5px;
+}
+.copyRights{
+    background-color:#03989E;
+}
+
+@media (max-width:576px){
+    .studentBody {
+        flex-wrap: wrap;
+    }
+    .navTitle span{
+        font-size: 10px;
+    }
+    .navTitle p{
+        font-size: 10px;
+    }
+    .carousel-item img {
+        height:200px;
+    }
+    .d-none{
+        display:flex !important;
+    }
+    .carouselText p {
+        font-size: 10px;
+        display: none;
+    }
+    .carouselText h2{
+        font-size: 12px;
+    }
+    .carouselText{
+        justify-content: center;
+    }
+    .wedoTitle h4{
+        font-size:20px !important;
+    }
+    .d-flex {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .wedoBody .wedoTitle{
+        padding-left: 0px;
+        justify-content: center;
+        display: flex; 
+    }
+    .wedoContent .innerContent{
+        padding:15px 0px;
+    }
+/* quecontainer */
+
+.queBody{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.queTitle{
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.queTitle h4{
+    font-size: 20px;
+    color: #00305B;
+    font-weight: bold;
+}
+.que1 ,.que2{
+    font-size: 14px;
+}
+.ourContainer .ourTitle{
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.ourContainer .ourTitle h4{
+    font-size: 20px;
+}
+.ourContent .innerContent{
+    padding: 15px 0px;
+}
+.courseContainer h2{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.courseContainer .card{
+    width: 250px !important;
+}
+.courseContainer .card img{
+    width: 250px;
+    aspect-ratio: 16/9;
+}
+.slick-dots {
+    bottom: -50px;
+}
+.studentContainer h2{
+    font-size: 20px;
+}
+.aboutusContent p{
+    font-size: 12px;
+}
+.card-body .accordion-header button{
+    font-size: 12px;
+}
+.serviceContainer h2{
+    font-size: 20px;
+}   
+
+.overlay-content {
+    width: 200px;
+}
+.overlay-content img {
+    width:150px;
+    border-radius:12px;
+}
+.overlay-content p {
+    font-size:12px;
+}
+.socialIcon .footerIcon{
+    display: flex;
+    flex-direction:row;
+    justify-content: center !important;
+    padding: 10px 0px;
+}
+.socialIcon span{
+font-size: 12px;
+display: flex;
+justify-content: center;
+padding: 15px 0px;
+}
+
+.footerBody a{
+    font-size: 15px;
+}
+.footerBody p{
+    font-size: 15px;
+}
+.copyRights p{
+    font-size: 15px;
+}
+
+}
